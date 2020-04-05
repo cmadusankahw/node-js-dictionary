@@ -1,8 +1,9 @@
-const { Router } = require ("express");
+import { Router } from "express";
 
-let skiTerms = require("../data/skiTerms.json");
-const { save } = require ("./lib");
+import skiTermsJSON from "../data/skiTerms.json";
+import  { save } from "./lib";
 
+let skiTerms = skiTermsJSON;
 const router = new Router();
 
 router.get("/", (req, res) => {
@@ -28,4 +29,4 @@ router.delete("/:term", (req, res) => {
     });
 });
 
-module.exports = router;
+export default router;

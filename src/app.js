@@ -1,8 +1,8 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+import express from "express";
+import bodyParser from "body-parser";
 
-const { logger } = require("./lib");
-const  dictionaryRouter  = require("./dictionary-router");
+import { logger }  from "./lib";
+import  dictionaryRouter from "./dictionary-router";
 
 const app = express();
 
@@ -16,4 +16,4 @@ app.use(express.static("./client"));
 
 app.use("/dictionary", dictionaryRouter);
 
-module.exports = app;
+export default app;

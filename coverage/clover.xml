@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586113153544" clover="3.2.0">
-  <project timestamp="1586113153544" name="All files">
-    <metrics statements="40" coveredstatements="26" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="1" elements="52" coveredelements="27" complexity="0" loc="40" ncloc="40" packages="1" files="4" classes="4"/>
+<coverage generated="1586113649252" clover="3.2.0">
+  <project timestamp="1586113649252" name="All files">
+    <metrics statements="40" coveredstatements="30" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="4" elements="52" coveredelements="34" complexity="0" loc="40" ncloc="40" packages="1" files="4" classes="4"/>
     <file name="app.js" path="/mnt/0c829921-a533-49a2-a84e-24c764f6884e/Projects/nodeJS/start/src/app.js">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
@@ -16,7 +16,7 @@
       <line num="19" count="1" type="stmt"/>
     </file>
     <file name="dictionary-router.js" path="/mnt/0c829921-a533-49a2-a84e-24c764f6884e/Projects/nodeJS/start/src/dictionary-router.js">
-      <metrics statements="15" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="15" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <line num="1" count="2" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
@@ -28,9 +28,9 @@
       <line num="14" count="0" type="stmt"/>
       <line num="15" count="0" type="stmt"/>
       <line num="21" count="2" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="24" count="0" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
       <line num="31" count="2" type="stmt"/>
     </file>
     <file name="index.js" path="/mnt/0c829921-a533-49a2-a84e-24c764f6884e/Projects/nodeJS/start/src/index.js">
@@ -40,11 +40,11 @@
       <line num="4" count="0" type="stmt"/>
     </file>
     <file name="lib.js" path="/mnt/0c829921-a533-49a2-a84e-24c764f6884e/Projects/nodeJS/start/src/lib.js">
-      <metrics statements="12" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
       <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="8" count="0" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
